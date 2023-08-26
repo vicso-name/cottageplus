@@ -1,0 +1,600 @@
+@media (max-width: 1600px) {
+	//Home Page
+    .cottage-hero .cottage-hero__content h1{
+        font-size: 65px;
+        line-height: 1.2;
+    }
+    .cottage-hero .cottage-hero__content p{
+        font-size: 16px;
+    }
+    .cottage-hero .cottage-hero__content{
+        margin-top: 90px;
+    }
+    .sider-menu-list li{
+        margin-bottom: 18px;
+    }
+    .cottage-hero .cottage-hero__content a{
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .cottage-finished .cottage-finished__content h2{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+	//Home Page
+    .cottage-decor-text h2{
+        font-size: 90px;
+    }
+    //About
+    .cottage-about-team__certificates .swiper-button-prev{
+        display: none;
+    }
+    .cottage-about-team__certificates .swiper-button-next{
+        display: none;
+    }
+    //Blog
+    .blog-articles-row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-articles-row .blog-article:nth-child(2) {
+        border-right: none;
+    }
+    .blog-articles-row .blog-article:nth-child(3) {
+        border-right: 1px solid #000;
+    }
+    .blog-articles-row .blog-article:nth-child(4) {
+        border-right: none;
+    }
+    .blog-articles-row .blog-article:nth-child(8) {
+        border-right: none;
+    }
+    .blog-articles-row .blog-article:nth-child(9) {
+        border-right: 1px solid #000;
+    }
+    .blog-hero .blog-hero__content .blog-hero__title{
+        font-size: 45px;
+    }
+    //Case Archive
+    .projects-articles-row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .projects-articles-row .projects-article:nth-child(2) {
+        border-right: none;
+    }
+    .projects-articles-row .projects-article:nth-child(3) {
+        border-right: 1px solid #000;
+    }
+    .projects-articles-row .projects-article:nth-child(4) {
+        border-right: none;
+    }
+    .projects-articles-row .projects-article:nth-child(8) {
+        border-right: none;
+    }
+    .projects-articles-row .projects-article:nth-child(9) {
+        border-right: 1px solid #000;
+    }
+    //Case
+    .case-content__item-first__wrapper .case-content__item-first .case-content__description ul li .description-title{
+        font-size: 30px;
+    }
+    .case-content__item-first__wrapper .case-content__item-first .case-content__description ul li .description-content{
+        font-size: 30px;
+    }
+    .case-content__item-second__wrapper .case-content__item-second{
+        flex-direction: column;
+    }
+    .case-content__item-second__wrapper .case-content__item-second figure img{
+        margin-bottom: 30px;
+    }
+    //Completeness
+    .completeness-contnet .completeness-contnet__grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+    //Therm
+    .therm-content__item-second__wrapper .therm-content__item-second{
+        flex-direction: column;
+    }
+    .therm-content__item-second__wrapper .therm-content__item-second figure img{
+        margin-bottom: 30px;
+    }
+    .therm-content__item-second__wrapper .therm-content__item-second .therm-content__description{
+        width: 100%;
+    }
+    .therm-content__item-second__wrapper .therm-content__item-second figure{
+        width: 100%;
+        margin-right: 0;
+    }
+    .therm-content__item-third__wrapper .therm-content__item-third .therm-content__description h2{
+        font-size: 70px;
+    }
+    .therm-content__item-third__wrapper .therm-content__item-third .therm-content__description ul li{
+        font-size: 25px;
+    }
+    .therm-content__item-first__wrapper .therm-content__item-first .therm-content__description h2{
+        font-size: 40px;
+        line-height: 1.3;
+    }
+    .therm-content__item-first__wrapper .therm-content__item-first .therm-content__description p{
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 992px) {
+	//Home Page
+    .cottage-project .cottage-project__content.first-item{
+        flex-direction: column;
+    }
+    .cottage-project  .cottage-project__content.second-item{
+        flex-direction: column;
+    }
+    .cottage-project .cottage-project__content .cottage-project__content-images{
+        width: 100%;
+    }
+    .cottage-project .cottage-project__content .cottage-project__content-images img{
+        max-width: 100%;
+    }
+    .cottage-project .cottage-project__content .cottage-project__content-description{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cottage-project .cottage-project__content{
+        flex-direction: column-reverse;
+    }
+    .cottage-project .cottage-project__content.third-item{
+        flex-direction: column;
+    }
+    .cottage-contacts .cottage-contacts-list{
+        flex-direction: column;
+    }
+    .cottage-contacts .cottage-contacts-list li{
+        margin-bottom: 35px;
+    }
+    .cottage-decor-text h2{
+        font-size: 75px;
+    }
+    .cottage-form{
+        padding-bottom: 0;
+    }
+    .cottage-form .form{
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+        left: unset;
+        transform: unset;
+    }
+    .cottage-form .form form{
+        flex-direction: column;
+    }
+    .cottage-form .form form .input-column{
+        margin-right: 0;
+    }
+    .cottage-form .form form .input-column input{
+        width: 100%;
+    }
+    //About
+    .cottage-about-intro__content{
+        flex-direction: column;
+    }
+    .cottage-about-intro__content-image{
+        flex-basis: unset;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .cottage-about-intro__content-description-title{
+        margin-bottom: 20px;
+    }
+    .cottage-about-intro__content-description-subtitle{
+        margin-bottom: 20px;
+    }
+    //Case
+    .case-hero .case-hero__content .case-hero__title{
+        font-size: 45px;
+    }
+    .case-content__item-third__wrapper figure{
+        position: relative;
+    }
+    .case-content__item-first__wrapper figure{
+        position: relative;
+    }
+    .case-content__item-third__wrapper .case-content__item-third{
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .case-content__item-first__wrapper .case-content__item-first{
+        width: 100%;
+        justify-content: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .case-content__item-first__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+    .case-content__item-first{
+        padding-bottom: 0!important;
+    }
+    .case-content__item-second__wrapper .case-content__item-second .case-content__description h2{
+        font-size: 45px;
+    }
+    .case-content__item-third__wrapper .case-content__item-third .case-content__description h2{
+        font-size: 45px;
+    }
+    //Single
+    .single-blog-header .single-blog-header__content .single-blog-header__content-image{
+        width: 95%;
+    }
+    .single-blog-header .single-blog-header__content .single-blog-header__content-image img{
+        width: 100%;
+    }
+    .single-blog-header .single-blog-header__content .single-blog-header__content-image img{
+        min-height: 450px;
+    }
+    .blog-match-topic .blog-match-topic__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog-match-topic .blog-match-topic__grid .blog-match-topic__item figure img{
+        height: 300px;
+        min-height: unset;
+    }
+
+    //Contact
+    .cottage-form.cottage-contact .form{
+        left: unset;
+        transform: unset;
+        position: relative;
+        bottom: unset;
+    }
+
+    //Therm
+    .therm-content__item-third__wrapper figure{
+        position: relative;
+        width: 100%;
+    }
+    .therm-content__item-third__wrapper{
+        padding-top: 0;
+    }
+    .therm-content__item-third__wrapper .therm-content__item-third{
+        width: 100%;
+        justify-content: flex-start;
+        padding-top: 30px;
+    }
+    .therm-content__item-first__wrapper figure{
+        position: relative;
+        width: 100%;
+    }
+    .therm-content__item-first__wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+    .therm-content__item-first__wrapper .therm-content__item-first{
+        width: 100%;
+        justify-content: flex-start;
+        padding-top: 60px;
+    }
+    .therm-content__item-first__wrapper .therm-content__item-first .therm-content__description{
+        max-width: 100%;
+        text-align: left;
+        align-items: flex-start;
+    }
+    .therm-hero .therm-hero__content .therm-hero__title{
+        font-size: 45px;
+        line-height: 1.4;
+    }
+    .therm-content__item-second__wrapper .therm-content__item-second .therm-content__description h2{
+        font-size: 45px;
+    }
+    .cottage-about-team__certificates .cottage-container{
+        max-width: 710px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    //Home Page 
+    .cottage-main-menu{
+        display: none;
+    }
+	.cottage-finished .cottage-finished__content .cottage-finished__content-items{
+        flex-direction: column;
+    }
+    .cottage-finished .cottage-finished__content h2{
+        text-align: center;
+        font-size: 45px;
+    }
+    .cottage-finished .cottage-finished__content .cottage-finished__content-items li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .cottage-decor-text {
+        height: 190px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    .cottage-form .form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    //About
+    .cottage-about-team__content {
+        grid-template-columns: 1fr;
+    }
+    .cottage-about-team__review .review-grid{
+        grid-template-columns: 1fr;
+        column-gap: normal;
+        row-gap: 40px;
+    }
+    .cottage-about-team__certificates .cottage-about-team__certificates-title{
+        font-size: 45px;
+    }
+    .cottage-about-team__review .cottage-about-team__review-title{
+        font-size: 45px;
+    }
+    .therm-contact h2{
+        font-size: 45px;
+        line-height: 1.4;
+    }
+    .cottage-about-hero .cottage-about-hero__content h1{
+        font-size: 45px;
+        line-height: 1.4;
+    }
+    .cottage-about-intro__content-description-title{
+        font-size: 45px;
+    }
+    .cottage-about-team__certificates{
+        padding-bottom: 0;
+    }
+    //Error
+    .error-page .cottage-404 h1{
+        font-size: 135px;
+    }
+    .error-page .cottage-404 h2{
+        font-size: 45px;
+    }
+    //Completeness
+    .completeness-hero .completeness-hero__content .completeness-hero__title{
+        font-size: 45px;
+    }
+    .completeness-contnet .completeness-contnet__grid {
+        grid-template-columns: 1fr;
+    }
+    .completeness-contnet .completeness-contnet__grid .completeness-contnet__grid-item .completeness-contnet__grid-item-description a{
+        width: 100%;
+    }
+    .completeness-contnet .completeness-contnet__grid{
+        grid-gap: 50px;
+    }
+    .completeness-contnet .completeness-contnet__description h2{
+        font-size: 35px;
+    }
+    //Single
+    .single-blog-header .single-blog-header__content .single-blog-header__content-image{
+        width: 100%;
+    }
+    .single-blog-header .single-blog-header__content{
+        flex-direction: column;
+    }
+    .single-blog-header .cottage-container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .blog-match-topic .blog-match-topic__grid{
+        grid-template-columns: 1fr;
+    }
+    .therm-content__item-third__wrapper .therm-content__item-third .therm-content__description h2{
+        font-size: 45px;
+    }
+    
+    
+}
+
+@media (max-width: 710px) {
+    .cottage-about-team__certificates .cottage-container {
+        max-width: 360px;
+    }
+}
+
+@media (max-width: 576px) {
+    //Home Page
+    .sider-menu{
+        width: 100%;
+        padding: 16px;
+    }
+    .header .header-contact-zona ul{
+        justify-content: space-between;
+    }
+    .sider-menu{
+        background: rgba(0,0,0,.9); 
+    }
+    .cottage-hero .cottage-hero__content{
+        text-align: center;
+    }
+    .cottage-hero .cottage-hero__content a{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .cottage-hero .cottage-hero__content h1{
+        font-size: 50px;
+        line-height: 1.1;
+    }
+    .cottage-decor-text h2{
+        font-size: 45px;
+    }
+    .cottage-finished{
+        padding-bottom: 80px;
+    }
+    .cottage-finished .cottage-finished__content h2 {
+        font-size: 30px;
+    }
+    .cottage-finished .cottage-finished__content .cottage-finished__content-items li h3{
+        font-size: 80px;
+    }
+    .cottage-decor-text {
+        height: 140px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    .cottage-footer .cottage-footer-first h2{
+        font-size: 20px;
+    }
+    .cottage-form .form{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cottage-form h2{
+        font-size: 30px;
+    }
+    //About
+    .cottage-about-team__certificates .cottage-about-team__certificates-title{
+        font-size: 30px;
+    }
+    .cottage-about-team__review .cottage-about-team__review-title{
+        font-size: 30px;
+    }
+    .therm-contact h2{
+        font-size: 30px;
+    }
+    .cottage-about-hero .cottage-about-hero__content h1{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    .cottage-about-intro__content-description-title{
+        font-size: 35px;
+    }
+    .cottage-about-hero{
+        height: 50vh;
+    }
+    //Error
+    .error-page .cottage-404 h2{
+        font-size: 30px;
+    }
+    //Blog
+    .blog-articles-row{
+        grid-template-columns: 1fr;
+    }
+    .blog-articles-row .blog-article{
+        border-right: none!important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .blog-hero .blog-hero__content .blog-hero__title{
+        line-height: 1.4;
+    }
+    //Case Archive
+    .projects-hero .projects-hero__content .projects-hero__title{
+        font-size: 45px;
+        line-height: 1.4;
+    }
+    .projects-articles-row{
+        grid-template-columns: 1fr;
+    }
+    
+    .projects-articles-row .projects-article{
+        border-right: none!important;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    //Case
+    .case-content__item-first__wrapper .case-content__item-first .case-content__description{
+        width: 100%;
+    }
+    .case-content__item-first__wrapper .case-content__item-first .case-content__description ul{
+        width: 100%;
+    }
+    .case-content__item-third__wrapper .case-content__item-third .case-content__description ul li{
+        font-size: 20px;
+    }
+    .case-content__item-third__wrapper .case-content__item-third .case-content__description ul li{
+        margin-bottom: 30px;
+    }
+    .case-content__item-third__wrapper .case-content__item-third .case-content__description h2{
+        margin-bottom: 15px;
+    }
+    .case-content__item-first__wrapper .case-content__item-first .case-content__description ul li .description-title{
+        font-size: 25px;
+    }
+    .case-content__item-first__wrapper .case-content__item-first .case-content__description ul li .description-content{
+        font-size: 25px;
+    }
+
+    //Completeness
+    .completeness-contnet .completeness-contnet__description h2{
+        font-size: 30px;
+    }
+    .completeness-contnet .completeness-contnet__grid .completeness-contnet__grid-item figure h3{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .completeness-contnet .completeness-contnet__grid .completeness-contnet__grid-item .completeness-contnet__grid-item-description{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .completeness-contnet .completeness-contnet__grid .completeness-contnet__grid-item .completeness-contnet__grid-item-description p{
+        font-size: 18px;
+    }
+    .completeness-contnet .completeness-contnet__grid .completeness-contnet__grid-item .completeness-contnet__grid-item-description ul li{
+        font-size: 16px;
+    }
+    .completeness-contnet .completeness-contnet__description p{
+        font-size: 16px;
+    }
+    .therm-contact .therm-contact-link{
+        width: 100%;
+    }
+    .therm-hero .therm-hero__content .therm-hero__title{
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    
+    
+}
+
+@media (max-width: 375px) {
+
+    //Home Page
+	.cottage-hero .cottage-hero__content h1 {
+        font-size: 40px;
+    }
+    .cottage-decor-text h2 {
+        font-size: 28px;
+    }
+
+    //Error
+    .error-page .cottage-404 h1{
+        font-size: 100px;
+    }
+
+    //Completeness
+    .completeness-hero .completeness-hero__content .completeness-hero__title{
+        font-size: 30px;
+    }
+    .therm-contact h2 {
+        font-size: 25px;
+    }
+
+    //Term
+    .therm-content__item-second__wrapper .therm-content__item-second .therm-content__description a{
+        width: 100%;
+    }
+    .therm-content__item-second__wrapper .therm-content__item-second .therm-content__description h2{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 340px) {
+	.cottage-about-team__certificates .cottage-container img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,243 @@
+.case-hero {
+	position: relative;
+	z-index: 1;
+	height: 50vh;
+	padding-bottom: 60px;
+	&::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(0,0,0,0.8);
+    }  
+	.bg-img {
+		bottom: 0;
+		left: 0;
+		right: 0;
+		top: 0;
+		z-index: -1;
+		position: absolute;
+		margin: 0;
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.cottage-container {
+		display: flex;
+		align-items: flex-end;
+	}
+	.case-hero__content {
+		.case-hero__title {
+			color: #fc5815;
+			font-size: 90px;
+			font-style: normal;
+			font-weight: 800;
+			line-height: 100px;
+		}
+		.case-hero__description {
+			color: #fff;
+			font-size: 22px;
+			text-decoration: none;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 28px;
+			max-width: 545px;
+			width: 100%;
+		}
+	}
+}
+.case-content__item-first__wrapper {
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	overflow: hidden;
+	.case-content__item-first {
+		display: flex;
+		padding-bottom: 80px;
+		padding-top: 80px;
+		justify-content: center;
+		width: 50%;
+		.case-content__description {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			.case-content__description-devider {
+				margin-top: 22px;
+				margin-bottom: 22px;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+				width: 445px;
+				li {
+					padding-bottom: 44px;
+					width: 100%;
+					display: flex;
+					justify-content: space-between;
+					.description-title {
+						display: inline-block;
+						color: #000;
+						font-size: 40px;
+						font-style: normal;
+						font-weight: 700;
+						line-height: 28px;
+						padding-right: 20px;
+					}
+					.description-content {
+						color: #000;
+						font-size: 40px;
+						text-decoration: none;
+						font-style: normal;
+						font-weight: 500;
+						line-height: 28px;
+						width: 120px;
+					}
+					&:last-child {
+						padding-bottom: 0;
+					}
+				}
+			}
+			.case-content__description {
+				.case-content__description-title {
+					color: #000;
+					font-size: 70px;
+					font-style: normal;
+					font-weight: 800;
+					line-height: 100px;
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+	figure {
+		margin: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 50%;
+	}
+}
+.case-content__item-second__wrapper {
+	background-color: #000;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	position: relative;
+	&::before {
+		content: "";
+		width: 100%;
+		left: 0;
+		height: 1px;
+		background-color: #fff;
+		position: absolute;
+		top: 80px;
+	}
+	&::after {
+		content: "";
+		width: 100%;
+		height: 1px;
+		background-color: #fff;
+		position: absolute;
+		right: 0;
+		bottom: 80px;
+	}
+	.case-content__item-second {
+		display: flex;
+		padding-bottom: 80px;
+		padding-top: 80px;
+		justify-content: space-between;
+		figure {
+			margin: 0;
+			flex-basis: 60%;
+			position: relative;
+			left: -2500%;
+			transition: all .5s ease;
+			img {
+				width: 100%;
+				border-radius: 5px;
+			}
+		}
+		figure.active {
+			left: 0;
+		}
+		.case-content__description {
+			-ms-flex-preferred-size: 35%;
+			flex-basis: 35%;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			h2 {
+				color: #fc5815;
+				font-size: 90px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: 90px;
+				margin-bottom: 30px;
+			}
+			p {
+				font-size: 25px;
+				text-decoration: none;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 35px;
+				color: #fff;
+				text-align: left;
+			}
+		}
+	}
+}
+.case-content__item-third__wrapper {
+	position: relative;
+	overflow: hidden;
+	.case-content__item-third {
+		display: flex;
+		padding-bottom: 80px;
+		padding-top: 80px;
+		justify-content: center;
+		width: 50%;
+		.case-content__description {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			h2 {
+				color: #000;
+				font-size: 90px;
+				font-style: normal;
+				font-weight: 900;
+				line-height: 90px;
+				margin-bottom: 60px;
+			}
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style-type: none;
+				li {
+					position: relative;
+					font-size: 30px;
+					color: #000;
+					text-align: left;
+					text-transform: uppercase;
+					margin-bottom: 60px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	figure {
+		margin: 0;
+		position: absolute;
+		right: 0;
+		width: 50%;
+		top: 0;
+		bottom: 0;
+	}
+}

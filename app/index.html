@@ -60,11 +60,41 @@
 				<a href="#">Projects & Price</a>
 			</li>
 		</ul>
+
+		<ul class="mobile-menu__contacts">
+			<li>
+				<img src="./img/phone.svg" alt="phone">
+				<a href="tel:+13887878787">+13887878787</a>
+			</li>
+			<li>
+				<img src="./img/e_mail.svg" alt="mail">
+				<a href="mailto:cottageplus@gmail.com">cottageplus@gmail.com</a>
+			</li>
+		</ul>
 	</div>
 
 	<header class="header">
+		<div class="header-contact-zona">
+			<div class="cottage-container">
+				<ul>
+					<li>
+						<img src="./img/phone.svg" alt="phone">
+						<a href="tel:+13887878787">+13887878787</a>
+					</li>
+					<li>
+						<img src="./img/e_mail.svg" alt="mail">
+						<a href="mailto:cottageplus@gmail.com">cottageplus@gmail.com</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 		<div class="cottage-container">
 			<div class="main-menu-wrapper">
+				<div class="header-brand-container">
+					<a href="/">
+						Cottage<span>Plus</span>
+					</a>
+				</div>
 				<nav class="cottage-main-menu">
 					<ul>
 						<li class="active">
@@ -105,6 +135,7 @@
 
 		</section>
 
+	
 		<section class="cottage-finished">
 			<div class="cottage-container">
 				<div class="cottage-finished__content">
@@ -230,31 +261,44 @@
 			</div>
 		</section>
 
-		<section class="conttage-form"> 
+		<section class="cottage-form"> 
 			<div class="cottage-container">
 				<h2>Contact us</h2>
 			</div>
+
 			<div id="main-form" class="form">
-				<form action="">
-					<div class="input-column">
-						<input type="text" placeholder="Name">
-						<input type="email" placeholder="Email">
-						<input type="text" placeholder="Phone">
+				<div class="wpcf7 js" id="wpcf7-f8-p19-o1" lang="en-US" dir="ltr">
+					<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+					<form action="/#wpcf7-f8-p19-o1" method="post" class="wpcf7-form init" aria-label="Contact form" enctype="multipart/form-data" novalidate="novalidate" data-status="init">
+					<div style="display: none;">
+					<input type="hidden" name="_wpcf7" value="8">
+					<input type="hidden" name="_wpcf7_version" value="5.7.7">
+					<input type="hidden" name="_wpcf7_locale" value="en_US">
+					<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f8-p19-o1">
+					<input type="hidden" name="_wpcf7_container_post" value="19">
+					<input type="hidden" name="_wpcf7_posted_data_hash" value="">
 					</div>
 					<div class="input-column">
-						<input type="text" placeholder="">
-						<input type="text" placeholder="">
-						<div class="btn-sender">
-							<input class="sender-btn" type="submit" value="Submit">
-						</div>
+						  <span class="wpcf7-form-control-wrap" data-name="Name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Name" value="" type="text" name="Name"></span>
+						  <span class="wpcf7-form-control-wrap" data-name="Email"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email" value="" type="email" name="Email"></span>
+						  <span class="wpcf7-form-control-wrap" data-name="phone"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" placeholder="Phone" value="" type="tel" name="phone"></span>
+						  <div class="project-file"><span class="wpcf7-form-control-wrap" data-name="projectfile"><input size="40" class="wpcf7-form-control wpcf7-file" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc" aria-invalid="false" type="file" name="projectfile"></span></div>
+					
 					</div>
-				</form>
+					<div class="input-column right-form">
+					<span class="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" name="message"></textarea></span>
+					   <div class="btn-sender">
+						 <input class="wpcf7-form-control has-spinner wpcf7-submit sender-btn" type="submit" value="Submit"><span class="wpcf7-spinner"></span>
+					   </div>
+					</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+					</form>
+					</div>
 			</div>
 		</section>
 
-		<section class="conttage-contacts"> 
+		<section class="cottage-contacts"> 
 			<div class="cottage-container">
-				<ul class="conttage-contacts-list">
+				<ul class="cottage-contacts-list">
 					<li>
 						<a href="">cottageplus@gmail.com</a>
 						<h3>USA</h3>
@@ -275,6 +319,9 @@
 			<div class="cottage-footer-first">
 				<div class="cottage-container">
 					<h2>Dream build of future</h2>
+					<figure>
+						<img src="./img/main_logo.svg" alt="Cottage Plus">
+					</figure>
 				</div>
 			</div>
 			<div class="cottage-footer-second">
@@ -290,7 +337,6 @@
 								<li><a href="#">Contact us</a></li>
 							</ul>
 						</nav>
-						<img class="footer-logo" src="./img/footer-logo.svg" alt="cottage plus logo">
 						<ul class="social">
 							<li><a href="#">Twitter</a></li>
 							<li><a href="#">Instagram</a></li>
@@ -306,6 +352,14 @@
 	</main>
 	
 	<script src="js/scripts.min.js"></script>
-
+	
+	<div class="form-success-message">
+		<div class="form-success-message__content">
+			<h2>Thank You for Your Submission!</h2>
+			<p>Thank you for reaching out to us! Your message has been successfully submitted, and we appreciate you taking the time to contact us.</p>
+			<a href="#" class="close-success-btn">Close</a>
+		</div>
+	</div>
+	<div class="form-success-message_overlay" id="success-message-overlay"></div>
 </body>
 </html>
